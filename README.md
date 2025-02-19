@@ -20,22 +20,22 @@ MyApp is a React Native-based mobile application featuring authentication, infin
 
 ### Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
-   ```
+   
+   git clone https://github.com/ganeshkale0209/ReactNativeApp.git
+   cd ReactNativeApp
+   
 2. Install dependencies:
-   ```sh
+   
    npm install
-   ```
+
 3. Install Firebase dependencies:
-   ```sh
+
    npm install @react-native-firebase/app @react-native-firebase/auth
-   ```
+   
 4. Install Async Storage for persistent authentication:
-   ```sh
+
    npm install @react-native-async-storage/async-storage
-   ```
+   
 
 ## Firebase Configuration
 1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
@@ -44,7 +44,7 @@ MyApp is a React Native-based mobile application featuring authentication, infin
    - `android/app/google-services.json`
    - `ios/GoogleService-Info.plist`
 4. Initialize Firebase in your project:
-   ```js
+   
    import { initializeApp } from 'firebase/app';
    import { getAuth } from 'firebase/auth';
    import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -65,9 +65,9 @@ MyApp is a React Native-based mobile application featuring authentication, infin
 
 ## Running the App
 1. Start the Expo development server:
-   ```sh
+   
    npm start
-   ```
+  
 2. Press `a` to run on Android or `i` to run on iOS.
 3. Scan the QR code using Expo Go on your mobile device.
 
